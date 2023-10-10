@@ -1,4 +1,4 @@
-if __name__== '__main__': print('hello world')
+if __name__== '__main__': print('hello user')
 if __name__ == '__main__':
     if __name__ == '__main__':
         name = input('Hello, what is your name? ')
@@ -17,5 +17,5 @@ input("Hello there,\nWhat is your name?")
 print(f"""Welcome, {name}. it’s 'nice' to
 See you again
 After such a long time""")
-input("what is your surname??")
 surname = input("what is your surname??")
+print(print(f'Hello, {name} {surname}. It is good to meet you.'))
