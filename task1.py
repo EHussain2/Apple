@@ -33,3 +33,12 @@ if True:
                     break
                 else:
                     print("enter yes or no")
+                App= delivery_cost/2
+            while True:
+                App = input("Are you using the app today? Yes or No?")
+
+                if delivery == "yes":
+                        print(f"The new total is £{delivery_cost}")
+                        print(f"As more than 5 pizzas have been ordered, you get free delivery.")
+                    break
+
