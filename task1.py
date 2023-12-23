@@ -40,5 +40,3 @@ if True:
                 if delivery == "yes":
                         print(f"The new total is £{delivery_cost}")
                         print(f"As more than 5 pizzas have been ordered, you get free delivery.")
-                    break
-
