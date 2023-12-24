@@ -18,16 +18,16 @@ if True:
         elif not tuesday:
             print("invalid input, please enter yes or no")
 while True:
-                delivery = input("Do you need delivery? Yes or No?")
-
-                if delivery == "yes":
+    delivery= input("Do you need delivery? Yes or No?")
+    delivery_cost = amount1+2.50
+    if delivery == "yes":
                     if order_amount <= 5:
                         print(f"The new total is £{delivery_cost}")
                     else:
                         print("As more than 5 pizzas have been ordered you've received free delivery")
-                    break
-                elif delivery == "no":
-                    print(" no delivery charge added")
-                    break
-                else:
-                    print("enter yes or no")
+                        break
+                    elif delivery == "no":
+                        print(" no delivery charge added")
+                        break
+                     else:
+                        print("enter yes or no")
